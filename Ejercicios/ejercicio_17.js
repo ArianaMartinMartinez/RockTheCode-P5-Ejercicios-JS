@@ -1,5 +1,10 @@
 /*
-Probando For...in: Usa un for...in para imprimir por consola los datos del alienígena.. Puedes usar este objeto:
+Probando For...in: 
+
+Usa un for...in para imprimir por consola los datos del alienígena.. 
+
+Puedes usar este objeto:
+*/
 
 const alien = {
     name: 'Wormuck',
@@ -7,4 +12,7 @@ const alien = {
     planet: 'Eden',
     weight: '259kg'
 }
-*/
+
+for(const data in alien) {
+    console.log(`${data}: ${alien[data]}`);
+}
